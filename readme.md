@@ -44,6 +44,16 @@ _Enter VPBA!  Business coaching, talent networks and website packages that keep 
 
 ### FIN
 
+#### User Stories
+
+_As a failing business owner, I want a big red button that will allow me to not change anything about myself, my offering or my day-to-day processes and will also increase my monthly revenue by over 50%._
+
+_As a fledgling business owner, I want solutions and optimizations that allow me to run and manage my business effectively with the least possible amount of management._
+
+_As an established but struggling business owner, I want a solution that will bring my company in line with today's technological standards as my next effort to increase sales._
+
+_As a freelance videographer, I want to learn more about how I turn my passion into an effective business model so that I can create some real equity._
+
 
 
 ## Setup/Installation Requirements
