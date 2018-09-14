@@ -74,6 +74,10 @@ Their offering highlights the following benefits:
 
  They've opted to not load the site with content to make the product the feature for the url.  Content and styling are basic.  The product will sell itself.
 
+#### Concept
+
+![Sketches of site at various widths](sketches.jpg)
+
 ## Setup/Installation Requirements
 - To view, first go to https://github.com/swampcamel/vpba.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
