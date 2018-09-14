@@ -8,7 +8,7 @@
 
 _VPBA is a business concept that sells online packages that provide freelancers and local video production companies with resources for building their online presence, expanding their markets and improving the way development and customer management happens for the company._
 
-_VPBA offers:_
+VPBA offers:
  - Networking
  - Automation
  - Development
@@ -16,13 +16,13 @@ _VPBA offers:_
 
 #### Perspective
 
-_VPBA is a network and resource for video production professionals in a constantly revolutionizing online world._
+VPBA is a network and resource for video production professionals in a constantly revolutionizing online world.
 
 _Who will use this interface? For what purposes?_
 
-_Either freelance videographers or persons of influence in video production companies such as business owners, vps and department leaders._
-_They'll be there to learn more about the offering, more about the company behind the offering and if converted, will want to make contact to negotiate which offerings they are interested in._
-_Future scaled concepts could include offerings that are effective enough to offer to large, already successful video production companies to boost sales and growth further._
+Either freelance videographers or persons of influence in video production companies such as business owners, vps and department leaders.
+They'll be there to learn more about the offering, more about the company behind the offering and if converted, will want to make contact to negotiate which offerings they are interested in.
+Future scaled concepts could include offerings that are effective enough to offer to large, already successful video production companies to boost sales and growth further.
 
 #### Personas
 
@@ -46,15 +46,33 @@ _Enter VPBA!  Business coaching, talent networks and website packages that keep 
 
 #### User Stories
 
-_As a failing business owner, I want a big red button that will allow me to not change anything about myself, my offering or my day-to-day processes and will also increase my monthly revenue by over 50%._
+As a failing business owner, I want a big red button that will allow me to not change anything about myself, my offering or my day-to-day processes and will also increase my monthly revenue by over 50%.
 
-_As a fledgling business owner, I want solutions and optimizations that allow me to run and manage my business effectively with the least possible amount of management._
+As a fledgling business owner, I want solutions and optimizations that allow me to run and manage my business effectively with the least possible amount of management.
 
-_As an established but struggling business owner, I want a solution that will bring my company in line with today's technological standards as my next effort to increase sales._
+As an established but struggling business owner, I want a solution that will bring my company in line with today's technological standards as my next effort to increase sales.
 
-_As a freelance videographer, I want to learn more about how I turn my passion into an effective business model so that I can create some real equity._
+As a freelance videographer, I want to learn more about how I turn my passion into an effective business model so that I can create some real equity.
 
+#### Competitive Evaluation
 
+https://wooshii.com/ - Dashboard for Video Project Management and network for contracting labor.  Around 13,000 accounts.
+
+Wooshii targets the user's frustration with having too many tools and channels to manage effectively.  They provide a project dashboard for handling all aspects of the development process and they provide a network of various types of talent for needs related to running a video production company.  The idea is that the people you hire on the network will collaborate with you through their dashboard.
+
+Their offering highlights the following benefits:
+
+ - The ability to take on a larger amount of projects (10 times the amount you normally do) through the increase of productivity that the app provides.  
+
+ - The network allows your company to offer services your team doesn't cover in house.  
+
+ - The cloud services allow you to deliver content to clients overnight, anywhere in the world.
+
+ - The platform gives you a strategy that gives you greater control over the development process.
+
+ The rest of the site gives just a little more information than the home page on Product Tour and provides the pricing table on another page.  The rest of the site is the platform behind a login.
+
+ They've opted to not load the site with content to make the product the feature for the url.  Content and styling are basic.  The product will sell itself.
 
 ## Setup/Installation Requirements
 - To view, first go to https://github.com/swampcamel/vpba.
