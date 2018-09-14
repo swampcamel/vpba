@@ -77,12 +77,15 @@ Their offering highlights the following benefits:
 #### Concept
 
 Sketch for Home Page
+
 ![Sketches of site at various widths](sketches.jpg)
 
 Sketch for About Page
+
 ![Sketch of about page](about-sketch.jpg)
 
 Sketch for Other Pages
+
 ![Sketch of other pages](pricing-blog-contact-sketch.jpg)
 
 ## Setup/Installation Requirements
