@@ -22,6 +22,7 @@ _Who will use this interface? For what purposes?_
 
 _Either freelance videographers or persons of influence in video production companies such as business owners, vps and department leaders._
 _They'll be there to learn more about the offering, more about the company behind the offering and if converted, will want to make contact to negotiate which offerings they are interested in._
+_Future scaled concepts could include offerings that are effective enough to offer to large, already successful video production companies to boost sales and growth further_
 
 
 ## Setup/Installation Requirements
