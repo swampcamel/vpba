@@ -74,9 +74,9 @@ Their offering highlights the following benefits:
 
  - The platform gives you a strategy that gives you greater control over the development process.
 
- The rest of the site gives just a little more information than the home page on Product Tour and provides the pricing table on another page.  The rest of the site is the platform behind a login.
+ The other pages give just a little more information than the home page on Product Tour and provides the pricing table on its own page.  The rest of the site is the platform behind a login.
 
- They've opted to not load the site with content to make the product the feature for the url.  Content and styling are basic.  The product will sell itself.
+ They've opted to not load the site with content to make the product the feature for the url.  Content and styling are basic, but optimal for performance.  The product will sell itself more than a colorful landing page.
 
 #### Concept
 
