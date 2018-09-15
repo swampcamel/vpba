@@ -115,4 +115,4 @@ Sketch for Other Pages
 -
 
 ### License
-This software is licensed under [GNU GPLv3](LICENSE.txt).
+
