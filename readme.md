@@ -89,11 +89,10 @@ Sketch for Other Pages
 ![Sketch of other pages](pricing-blog-contact-sketch.jpg)
 
 ## Setup/Installation Requirements
-- To view, first go to https://github.com/swampcamel/vpba.
+- To view in Adobe XD, first go to https://github.com/swampcamel/vpba.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
-- Unzip `project-one-up-master.zip`.
-- Navigate to the `project-one-up-master` directory.
-- Inside `project-one-up-master` double-click on `index.html`.
+
+- To view online, visit: https://xd.adobe.com/view/80ccab0c-2b9e-412a-41cb-6cadb237c25e-f6fd/?fullscreen
 
 ## Known Bugs
 
