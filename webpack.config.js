@@ -72,6 +72,16 @@ module.exports = {
         collapseWhitespace: true
       }
     }),
+
+    new HtmlWebpackPlugin({
+    template: './src/home.html',
+    filename: 'home.html',
+    minify: {
+      removeComments: true,
+      collapseWhitespace: true
+    }
+  }),
+
     new UglifyJsPlugin(),
     new CleanWebpackPlugin(['dist'])
   ]
