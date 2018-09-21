@@ -5,7 +5,7 @@ $accent-1: #FF6848;
   @return percentage($specHeight / 1080);
 }
 
-html, body {
+html, body, .hero-blackbg {
   height: 100%;
   width: 100%;
   font-size: 28px;
@@ -16,7 +16,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   padding: 0 auto;
 }
 
-body {
+.hero-blackbg {
   background-color: #000;
 }
 
