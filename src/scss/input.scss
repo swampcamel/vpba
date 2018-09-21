@@ -2,6 +2,7 @@ $sans: 'Josefin Sans', sans-serif;
 $slab: 'Josefin Slab', serif;
 $accent-1: #FF6848;
 $accent-2: #7F3424;
+$accent-3: #636363;
 @function fluidPadHeight($specHeight) {
   @return percentage($specHeight / 1080);
 }
@@ -214,6 +215,30 @@ nav ul a {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+$testcolheight: 711px;
+
+.testimonials {
+  margin-top: 160px;
+  background-color: $accent-3;
+  height: $testcolheight;
+}
+
+.testimonial-wrapper {
+  display: flex;
+
+}
+
+.quote {
+  background-color: $accent-1;
+  width: 70%;
+  height: $testcolheight;
+  transform: translateY(-72.54px);
+}
+
+.bio {
+
 }
 
 
