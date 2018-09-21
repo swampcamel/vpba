@@ -163,4 +163,34 @@ nav ul a {
   padding-top: 102px;
   text-align: center;
   overflow: visible;
+  h3, h5 {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  h5 {
+    color: #8F8F8F;
+    padding-top: 42px;
+    max-width: 1200px;
+  }
+  form {
+    line-height: 1rem;
+    .inline {
+      width: 400px;
+    }
+  }
+  .signup-field form {
+      width: 600px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .signup-field form {
+    width: 90%;
+    flex-direction: column;
+  }
 }
