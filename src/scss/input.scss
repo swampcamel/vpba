@@ -1,5 +1,7 @@
 $sans: 'Josefin Sans', sans-serif;
 $slab: 'Josefin Slab', serif;
+$MT: 'Engravers MT';
+$fira: 'Fira Sans';
 $accent-1: #FF6848;
 $accent-2: #7F3424;
 $accent-3: #636363;
@@ -47,6 +49,12 @@ h5 {
   font-family: $sans;
   font-size: 1.14rem;
   line-height: 1.35;
+}
+
+h6 {
+  font-family: $fira;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .tagline {
@@ -230,17 +238,56 @@ $testcolheight: 711px;
 
 }
 
-.quote {
+.quote-col {
   background-color: $accent-1;
   width: 70%;
   height: $testcolheight;
   transform: translateY(-72.54px);
 }
 
+.quote {
+  font-family: $MT;
+  color: white;
+  margin-left: 40%;
+  margin-top: 64.12px;
+  h6 {
+    padding-left: 54px;
+    span{
+      display: block;
+    }
+  }
+}
+
 .bio {
 
 }
 
+@media screen and (max-width: 1450px) {
+  .quote {
+    margin-left: 20%;
+    h6{
+    font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .quote {
+    margin-left: 5%;
+    h6 {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .quote {
+    margin-left: 2%;
+    h6 {
+      font-size: 0.65rem;
+    }
+  }
+}
 
 @media screen and (max-width: 600px) {
   .home-hero .signup-field form {
