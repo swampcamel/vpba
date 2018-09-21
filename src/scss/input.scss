@@ -1,11 +1,18 @@
 $sans: 'Josefin Sans', sans-serif;
 $slab: 'Josefin Slab', serif;
+@function fluidPadHeight($specHeight) {
+  @return percentage($specHeight / 1080);
+}
 
 html, body {
   margin: 0 auto;
   padding: 0 auto;
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-color: #000;
 }
 
 h4 {
@@ -26,12 +33,22 @@ h4 {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
-  padding-top: 54px;
+  padding-top: fluidPadHeight(54);
   padding-left: 50px;
+  padding-right: 75px;
   color: white;
 }
 
-.hero-ident {
-  padding-top: 111px;
+.hero-indent {
+  padding-top: fluidPadHeight(111);
   padding-left: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    background-position: top right;
+  }
+  .hero-content {
+    width: 75%;
+  }
 }
