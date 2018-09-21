@@ -48,10 +48,6 @@ h5 {
   line-height: 1.35;
 }
 
-li::before {content: "•"; color: $accent-2;
-  display: inline-block; width: 1em;
-  margin-left: -1em}
-
 .tagline {
   padding-top: fluidPadHeight(89);
   span {
@@ -211,6 +207,15 @@ nav ul a {
 .row .col.pad-it {
   padding-left: 100px;
 }
+
+.red-bullets li::before {
+  content: "•";
+  color: $accent-2;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 
 @media screen and (max-width: 600px) {
   .home-hero .signup-field form {
