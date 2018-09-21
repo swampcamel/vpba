@@ -13,11 +13,18 @@ html, body, .hero-blackbg {
 
 html, body, h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0;
 }
 
 .hero-blackbg {
   background-color: #000;
+}
+
+h2 {
+  font-family: $sans;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.82rem;
 }
 
 h3 {
@@ -117,7 +124,43 @@ h5 {
 
 //home.html
 
+// nav bar styles
+
 .brand-logo img {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
+  display: block;
+  width: 140px;
+}
+
+
+//check _variables.scss when refactoring to variable format
+
+nav ul {
+  padding-top: (72px - 22px) / 2;
+  padding-bottom: (72px - 22px) / 2;
+}
+
+nav ul a {
+    font-family: $sans;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    padding-right: 79px;
+}
+
+.navbar-fixed {
+  nav {
+  top: 0;
+    border-bottom: 1px solid #000;
+  }
+}
+
+// hero
+
+.home-hero {
+  padding-top: 102px;
+  text-align: center;
+  overflow: visible;
 }
