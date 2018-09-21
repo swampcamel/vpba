@@ -1,23 +1,50 @@
 $sans: 'Josefin Sans', sans-serif;
 $slab: 'Josefin Slab', serif;
+$accent-1: #FF6848;
 @function fluidPadHeight($specHeight) {
   @return percentage($specHeight / 1080);
 }
 
 html, body {
-  margin: 0 auto;
-  padding: 0 auto;
   height: 100%;
   width: 100%;
+  font-size: 28px;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  margin: 0 auto;
+  padding: 0 auto;
 }
 
 body {
   background-color: #000;
 }
 
+h3 {
+  font-family: $sans;
+  font-size: 2rem;
+  line-height: 2.57rem;
+  font-weight: 400;
+}
+
 h4 {
   font-family: $sans;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   font-weight: 300;
+}
+
+h5 {
+  font-family: $sans;
+  font-size: 1.14rem;
+  line-height: 1.35;
+}
+
+.tagline {
+  padding-top: fluidPadHeight(89);
+  span {
+    display: block;
+  }
 }
 
 .hero {
@@ -28,7 +55,7 @@ h4 {
 }
 
 .hero-content {
-  background-color: #FF6848;
+  background-color: $accent-1;
   width: 596px;
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
@@ -44,11 +71,46 @@ h4 {
   padding-left: 25px;
 }
 
+.lunchtime {
+  display: block;
+  width: 200px;
+  padding: 8px;
+  text-align: center;
+  border: solid 4px white;
+  border-radius: 40px;
+  margin-top: fluidPadHeight(78);
+  color: white;
+  &:hover {
+    background-color: white;
+    color: $accent-1
+  }
+}
+
 @media screen and (max-width: 800px) {
+  html, body {
+    font-size: 24px;
+  }
   .hero {
     background-position: top right;
   }
   .hero-content {
     width: 75%;
   }
+}
+
+@media screen and (max-width: 650px) {
+    html, body {
+      font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h3 {
+      font-size: 1.5rem;
+      line-height: 1.7rem;
+    }
+    .lunchtime {
+      width: 65%;
+      font-size: 4vw;
+    }
 }
