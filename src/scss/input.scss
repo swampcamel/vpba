@@ -1,6 +1,7 @@
 $sans: 'Josefin Sans', sans-serif;
 $slab: 'Josefin Slab', serif;
 $accent-1: #FF6848;
+$accent-2: #7F3424;
 @function fluidPadHeight($specHeight) {
   @return percentage($specHeight / 1080);
 }
@@ -46,6 +47,10 @@ h5 {
   font-size: 1.14rem;
   line-height: 1.35;
 }
+
+li::before {content: "•"; color: $accent-2;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
 
 .tagline {
   padding-top: fluidPadHeight(89);
@@ -193,6 +198,20 @@ nav ul a {
   padding-top: 74px;
 }
 
+.small-divider {
+  width: 73px;
+  border-bottom: 4px $accent-1 solid;
+}
+
+.indent-p {
+  padding-left: 36px;
+  font-weight: 300;
+}
+
+.row .col.pad-it {
+  padding-left: 100px;
+}
+
 @media screen and (max-width: 600px) {
   .home-hero .signup-field form {
     width: 90%;
@@ -200,5 +219,10 @@ nav ul a {
     .inline {
       width: 90%;
     }
+  }
+  .row .col.pad-it, .indent-p {
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 98%;
   }
 }
