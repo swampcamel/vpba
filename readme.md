@@ -92,11 +92,13 @@ Sketch for Other Pages
 
 ![Sketch of other pages](pricing-blog-contact-sketch.jpg)
 
+XD Prototype: https://xd.adobe.com/view/80ccab0c-2b9e-412a-41cb-6cadb237c25e-f6fd/?fullscreen
+
+XD Design Specs: https://xd.adobe.com/spec/f0a60f8a-e58d-4adb-709e-76299ca1779c-8697/
+
 ## Setup/Installation Requirements
 - To view in Adobe XD, first go to https://github.com/swampcamel/vpba.
 - Click the green `Clone or download` button on the right, and select `Download ZIP`.
-
-- To view online, visit: https://xd.adobe.com/view/80ccab0c-2b9e-412a-41cb-6cadb237c25e-f6fd/?fullscreen
 
 ## Known Bugs
 
@@ -115,4 +117,3 @@ Sketch for Other Pages
 -
 
 ### License
-
