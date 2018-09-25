@@ -235,7 +235,6 @@ $testcolheight: 711px;
 
 .testimonial-wrapper {
   display: flex;
-
 }
 
 .quote-col {
@@ -243,6 +242,15 @@ $testcolheight: 711px;
   width: 70%;
   height: $testcolheight;
   transform: translateY(-72.54px);
+  position: relative;
+}
+
+.testimonial-slider-menu{
+  display: flex;
+  position: absolute;
+  bottom: 76px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .quote {
@@ -258,6 +266,28 @@ $testcolheight: 711px;
   }
 }
 
+
+.bullet {
+  background-color: #FFFFFF;
+  opacity: 0.74;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  margin-left: 12px;
+  margin-right: 12px
+}
+
+.bullet:hover {
+  background-color: lighten(#B41111, 20%);
+}
+
+.bullet:active, .bullet:focus {
+  background-color: #B41111;
+}
+
+
+
 .bio-col {
   width: 30%;
 }
@@ -265,6 +295,7 @@ $testcolheight: 711px;
 .bio-wrapper {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 66px;
   width: 395.33px;
   max-width: 395.33px;
   background-color: white;
@@ -272,14 +303,34 @@ $testcolheight: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: center;
+  padding-top: 33px;
+  padding-bottom: 64px;
   img {
     display: block;
+    align-self: center;
   }
+}
+
+.bio-text-wrapper span{
+  display: block;
 }
 
 .client-name {
   font-size: 19px;
   line-height: 33px;
+  font-weight: bold;
+}
+
+.client-title {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.client-at {
+  font-size: 17px;
+  line-height: 24px;
 }
 
 @media screen and (max-width: 1450px) {
